@@ -1,0 +1,846 @@
+{
+  "mod_elements": [
+    {
+      "name": "SeenCommandInternal",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seen_command_internal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/SeenCommandInternalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seen",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/command/SeenCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SeenCommandonjoin",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seen_commandonjoin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/SeenCommandonjoinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeenCommandonLeave",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seen_commandon_leave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/SeenCommandonLeaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeenCommandTotalTime",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "seen_command_total_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/SeenCommandTotalTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Boost",
+      "type": "command",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "boost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/command/BoostCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "BoostExec",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "boost_exec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/BoostExecProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MayflyitemMakeItemGlow",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mayflyitem_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/MayflyitemMakeItemGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "Test",
+      "type": "curiosbauble",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/item/TestItem.java",
+          "src/main/resources/assets/playertracker/models/item/test.json"
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "LoreUtils",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lore_utils",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TestRightclicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/TestRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "TestBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/TestBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "TestBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/TestBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "TestWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/TestWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "TestRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/TestRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "Accumultor",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "accumultor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/playertracker/models/item/accumultor.json",
+          "src/main/java/net/mcreator/playertracker/item/AccumultorItem.java"
+        ]
+      },
+      "path": "~/curious"
+    },
+    {
+      "name": "AttachCrafterNameToNBT",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attach_crafter_name_to_nbt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/AttachCrafterNameToNBTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/usage_restrictions"
+    },
+    {
+      "name": "RestrictPickup",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restrict_pickup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/RestrictPickupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/usage_restrictions"
+    },
+    {
+      "name": "Bonemeal",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/BonemealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BonemealCommand",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/command/BonemealCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PanicMobs",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panic_mobs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/PanicMobsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Panic",
+      "type": "command",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/command/PanicCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Circle",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/CircleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreateCircle",
+      "type": "command",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_circle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/command/CreateCircleCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "GetNearestTopBlock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_nearest_top_block",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/GetNearestTopBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulFire2",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_fire_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/playertracker/blockstates/soul_fire_2.json",
+          "src/main/resources/assets/playertracker/models/block/soul_fire_2.json",
+          "src/main/resources/assets/playertracker/models/item/soul_fire_2.json",
+          "src/main/java/net/mcreator/playertracker/block/SoulFire2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Pain",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/block/PainBlock.java",
+          "src/main/resources/assets/playertracker/models/block/pain.json",
+          "src/main/resources/assets/playertracker/blockstates/pain.json",
+          "src/main/resources/assets/playertracker/models/item/pain.json"
+        ]
+      }
+    },
+    {
+      "name": "FinePrint",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fine_print",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/playertracker/models/item/fine_print.json",
+          "src/main/java/net/mcreator/playertracker/item/FinePrintItem.java"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "ShipOfFools",
+      "type": "musicdisc",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_of_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/item/ShipOfFoolsItem.java",
+          "src/main/resources/assets/playertracker/models/item/ship_of_fools.json"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "HEVChargerBeats",
+      "type": "musicdisc",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hev_charger_beats",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/item/HEVChargerBeatsItem.java",
+          "src/main/resources/assets/playertracker/models/item/hev_charger_beats.json"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "ValleyOfFools",
+      "type": "musicdisc",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valley_of_fools",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/item/ValleyOfFoolsItem.java",
+          "src/main/resources/assets/playertracker/models/item/valley_of_fools.json"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "SweetDreams",
+      "type": "musicdisc",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_dreams",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/playertracker/models/item/sweet_dreams.json",
+          "src/main/java/net/mcreator/playertracker/item/SweetDreamsItem.java"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "AirMaxViolin",
+      "type": "musicdisc",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_max_violin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/playertracker/models/item/air_max_violin.json",
+          "src/main/java/net/mcreator/playertracker/item/AirMaxViolinItem.java"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "AmourPlastique",
+      "type": "musicdisc",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amour_plastique",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/playertracker/models/item/amour_plastique.json",
+          "src/main/java/net/mcreator/playertracker/item/AmourPlastiqueItem.java"
+        ]
+      },
+      "path": "~/sfx And other sus misc"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "last_login",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "last_disconnect",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "been_online",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lastLoginDate",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "lastDisconnectDate",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "flytoolActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "sweed",
+      "files": [
+        "sweed"
+      ],
+      "category": "neutral",
+      "subtitle": "smoke weed suckers"
+    },
+    {
+      "name": "fine_print",
+      "files": [
+        "the_fine_print_the_outer_worlds_song"
+      ],
+      "category": "record",
+      "subtitle": "welcome to space"
+    },
+    {
+      "name": "amourplastique",
+      "files": [
+        "napoleons_song_amour_plastique-_slowed_version_-_speed_up_songs_youtube_ndt6k7_y3ay"
+      ],
+      "category": "record",
+      "subtitle": "Amour Plastique"
+    },
+    {
+      "name": "air_max_violin",
+      "files": [
+        "air_max_violin_music__google_search_ngram_viewer_meme_theme_-_daze_youtube_p7l8kso_cgu"
+      ],
+      "category": "neutral",
+      "subtitle": "Air Max Violin (google ngram)"
+    },
+    {
+      "name": "hl_hev_beat",
+      "files": [
+        "half_life_hev_suit_charging_station_type_beat_-_morzibov_youtube_b4beudd9djy"
+      ],
+      "category": "record",
+      "subtitle": "HL HEV charger beat"
+    },
+    {
+      "name": "sweet_dreams",
+      "files": [
+        "eurythmics_annie_lennox_dave_stewart_-_sweet_dreams_are_made_of_this_official_video_-_eurythmicsvevo_youtube_qemfqkcpycg"
+      ],
+      "category": "record",
+      "subtitle": "Sweet Dreams"
+    },
+    {
+      "name": "ar1a_m4th",
+      "files": [
+        "c__ar_a_m4th_-_bxnwxghxrn_youtube_kv1x8229lxu"
+      ],
+      "category": "record",
+      "subtitle": "c\\:ar?a_m4th"
+    },
+    {
+      "name": "death_odyssey",
+      "files": [
+        "ultrakill_5-3_ost_combat_ship_of_fools_death_odyssey_combat_theme_-_sapphirehesus_youtube_3ynaizyf1ca"
+      ],
+      "category": "record",
+      "subtitle": "Death Odyssey"
+    },
+    {
+      "name": "valley_of_fools",
+      "files": [
+        "marzuku_valley_of_fools_calm_loop_read_desc_-_generic_username_youtube_a7-gmcdgcde"
+      ],
+      "category": "record",
+      "subtitle": "Valley Of Fools"
+    },
+    {
+      "name": "reconstructing_science",
+      "files": [
+        "portal_2_remix_-_reconstructing_science_remix_futuristic_orchestra_-_plasma3music_remixes_youtube_lmthkci9pge"
+      ],
+      "category": "record",
+      "subtitle": "Reconstructing Science"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.playertracker.sweet_dreams": "Sweet Dreams",
+      "block.playertracker.soul_fire_2": "Soul Fire 2",
+      "subtitles.reconstructing_science": "Reconstructing Science",
+      "subtitles.ar1a_m4th": "c\\:ar?a_m4th",
+      "item.playertracker.hev_charger_beats.desc": "Morzibov - HEV charging station type beat",
+      "item.playertracker.ship_of_fools": "Ship Of Fools (death odyssey)",
+      "subtitles.sweet_dreams": "Sweet Dreams",
+      "item.playertracker.accumultor": "this item acts as an umbrella (currently only for the undergrounder lol)",
+      "subtitles.amourplastique": "Amour Plastique",
+      "subtitles.hl_hev_beat": "HL HEV charger beat",
+      "item.playertracker.ship_of_fools.desc": "Heaven Pierce her - death odyssey",
+      "item.playertracker.valley_of_fools.desc": "Marzuku - Valley of fools",
+      "subtitles.sweed": "smoke weed suckers",
+      "item.playertracker.test": "Antigravity Modulator",
+      "item.playertracker.fine_print": "Fine Print",
+      "item.playertracker.amour_plastique.desc": "Amour Plastique - slowed version",
+      "subtitles.fine_print": "welcome to space",
+      "item.playertracker.fine_print.desc": "Welcome to Space",
+      "itemGroup.tablore_utils": "Lore Utils",
+      "item.playertracker.air_max_violin.desc": "google_ngram_viewer.mp3",
+      "item.playertracker.amour_plastique": "Amour Plastique",
+      "item.playertracker.sweet_dreams.desc": "Eurythmics - Sweet Dreams",
+      "item.playertracker.hev_charger_beats": "HEV Charger Beats",
+      "item.playertracker.valley_of_fools": "Valley Of Fools",
+      "subtitles.death_odyssey": "Death Odyssey",
+      "subtitles.air_max_violin": "Air Max Violin (google ngram)",
+      "subtitles.valley_of_fools": "Valley Of Fools",
+      "block.playertracker.pain": "Pain",
+      "item.playertracker.air_max_violin": "Air Max Violin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "curious",
+        "children": []
+      },
+      {
+        "name": "usage_restrictions",
+        "children": []
+      },
+      {
+        "name": "sfx And other sus misc",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "playertracker",
+    "modName": "PlayerTracker",
+    "version": "1.0.0",
+    "description": "this mod tracks you oooohh... scary! (really its loreUtils heh)",
+    "author": "philippe_levis, MCreator",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.playertracker",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

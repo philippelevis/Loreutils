@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Ship Of Fools (death odyssey)",
+    "texture": "shipoffools",
+    "description": "Heaven Pierce her - death odyssey",
+    "creativeTab": {
+      "value": "CUSTOM:LoreUtils"
+    },
+    "specialInfo": [
+      "coins spin, swift and sharp,",
+      "a martial art, a hidden arc.",
+      "with flick of wrist, precision's grace,",
+      "fortune's dance, in every space."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:death_odyssey"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 8
+  }
+}

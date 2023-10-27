@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "playertracker:blocks/missilng",
+    "up": "playertracker:blocks/missilng",
+    "north": "playertracker:blocks/missilng",
+    "east": "playertracker:blocks/missilng",
+    "south": "playertracker:blocks/missilng",
+    "west": "playertracker:blocks/missilng",
+    "particle": "playertracker:blocks/missilng"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 39,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"spawn_entity_with_rotation_velocity\"><field name=\"entity\">EntityFireworkRocket</field><value name=\"x\"><block type=\"entity_pos_x\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"y\"><block type=\"entity_pos_y\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"z\"><block type=\"entity_pos_z\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><value name=\"yaw\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"pitch\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"vx\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"vy\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"vz\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value></block></next></block><block type=\"mcitem_all\" x=\"195\" y=\"208\"><field name=\"value\">Items.FIREWORKS</field></block><block type=\"java_code\" x=\"46\" y=\"266\"><field name=\"CODE\">/*code*/</field></block><block type=\"entity_from_deps\" x=\"723\" y=\"274\"></block></xml>"
+  }
+}

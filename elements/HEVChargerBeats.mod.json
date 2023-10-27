@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "HEV Charger Beats",
+    "texture": "hev-charger-beat",
+    "description": "Morzibov - HEV charging station type beat",
+    "creativeTab": {
+      "value": "CUSTOM:LoreUtils"
+    },
+    "specialInfo": [
+      "HEV chargers, lifeline's grace,",
+      "Half-life lore, Combine's embrace.",
+      "Power surges, resistance found,",
+      "Worlds collide, in silence profound."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:hl_hev_beat"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

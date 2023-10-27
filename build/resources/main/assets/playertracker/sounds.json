@@ -1,0 +1,102 @@
+{
+  "sweed": {
+    "category": "neutral",
+    "subtitle": "subtitles.sweed",
+    "sounds": [
+      {
+        "name": "playertracker:sweed",
+        "stream": false
+      }
+    ]
+  },
+  "fine_print": {
+    "category": "record",
+    "subtitle": "subtitles.fine_print",
+    "sounds": [
+      {
+        "name": "playertracker:the_fine_print_the_outer_worlds_song",
+        "stream": true
+      }
+    ]
+  },
+  "amourplastique": {
+    "category": "record",
+    "subtitle": "subtitles.amourplastique",
+    "sounds": [
+      {
+        "name": "playertracker:napoleons_song_amour_plastique-_slowed_version_-_speed_up_songs_youtube_ndt6k7_y3ay",
+        "stream": true
+      }
+    ]
+  },
+  "air_max_violin": {
+    "category": "neutral",
+    "subtitle": "subtitles.air_max_violin",
+    "sounds": [
+      {
+        "name": "playertracker:air_max_violin_music__google_search_ngram_viewer_meme_theme_-_daze_youtube_p7l8kso_cgu",
+        "stream": false
+      }
+    ]
+  },
+  "hl_hev_beat": {
+    "category": "record",
+    "subtitle": "subtitles.hl_hev_beat",
+    "sounds": [
+      {
+        "name": "playertracker:half_life_hev_suit_charging_station_type_beat_-_morzibov_youtube_b4beudd9djy",
+        "stream": true
+      }
+    ]
+  },
+  "sweet_dreams": {
+    "category": "record",
+    "subtitle": "subtitles.sweet_dreams",
+    "sounds": [
+      {
+        "name": "playertracker:eurythmics_annie_lennox_dave_stewart_-_sweet_dreams_are_made_of_this_official_video_-_eurythmicsvevo_youtube_qemfqkcpycg",
+        "stream": true
+      }
+    ]
+  },
+  "ar1a_m4th": {
+    "category": "record",
+    "subtitle": "subtitles.ar1a_m4th",
+    "sounds": [
+      {
+        "name": "playertracker:c__ar_a_m4th_-_bxnwxghxrn_youtube_kv1x8229lxu",
+        "stream": true
+      }
+    ]
+  },
+  "death_odyssey": {
+    "category": "record",
+    "subtitle": "subtitles.death_odyssey",
+    "sounds": [
+      {
+        "name": "playertracker:ultrakill_5-3_ost_combat_ship_of_fools_death_odyssey_combat_theme_-_sapphirehesus_youtube_3ynaizyf1ca",
+        "stream": true
+      }
+    ]
+  },
+  "valley_of_fools": {
+    "category": "record",
+    "subtitle": "subtitles.valley_of_fools",
+    "sounds": [
+      {
+        "name": "playertracker:marzuku_valley_of_fools_calm_loop_read_desc_-_generic_username_youtube_a7-gmcdgcde",
+        "stream": true
+      }
+    ]
+  },
+  "reconstructing_science": {
+    "category": "record",
+    "subtitle": "subtitles.reconstructing_science",
+    "sounds": [
+      {
+        "name": "playertracker:portal_2_remix_-_reconstructing_science_remix_futuristic_orchestra_-_plasma3music_remixes_youtube_lmthkci9pge",
+        "stream": true
+      }
+    ]
+  }
+}

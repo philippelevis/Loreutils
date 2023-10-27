@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Amour Plastique",
+    "texture": "air-max-violin2",
+    "description": "Amour Plastique - slowed version",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [
+      "§c there's nothing we can do"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:amourplastique"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

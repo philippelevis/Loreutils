@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Valley Of Fools",
+    "texture": "valleyoffools",
+    "description": "Marzuku - Valley of fools",
+    "creativeTab": {
+      "value": "CUSTOM:LoreUtils"
+    },
+    "specialInfo": [
+      "V-1, a force of one, unmatched in might,",
+      "Through battles fierce, he claims the fight.",
+      "A warrior lone, with valor untold,",
+      "In epic tales, his legend unfolds."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:valley_of_fools"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

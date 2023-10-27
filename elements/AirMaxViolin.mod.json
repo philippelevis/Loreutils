@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Air Max Violin",
+    "texture": "air-max-violin",
+    "description": "google_ngram_viewer.mp3",
+    "creativeTab": {
+      "value": "CUSTOM:LoreUtils"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:air_max_violin"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

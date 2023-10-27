@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Sweet Dreams",
+    "texture": "sweet_dreams",
+    "description": "Eurythmics - Sweet Dreams",
+    "creativeTab": {
+      "value": "CUSTOM:LoreUtils"
+    },
+    "specialInfo": [
+      "Made of Theese they are,",
+      "made under the star,",
+      "somebody uses you,",
+      "like a shining guitar."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:sweet_dreams"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

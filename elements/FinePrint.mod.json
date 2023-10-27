@@ -1,0 +1,22 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Fine Print",
+    "texture": "fine_print",
+    "description": "Welcome to Space",
+    "creativeTab": {
+      "value": "CUSTOM:LoreUtils"
+    },
+    "specialInfo": [
+      "welcome to space",
+      "what were you expecting?"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fine_print"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
