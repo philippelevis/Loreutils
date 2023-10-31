@@ -208,6 +208,9 @@
       "locked_code": false,
       "registry_name": "test_bauble_is_equipped",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/TestBaubleIsEquippedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -412,8 +415,8 @@
       "name": "PanicMobs",
       "type": "procedure",
       "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
+      "compiles": false,
+      "locked_code": true,
       "registry_name": "panic_mobs",
       "metadata": {
         "files": [
@@ -648,6 +651,103 @@
         ]
       },
       "path": "~/sfx And other sus misc"
+    },
+    {
+      "name": "DeadseedBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadseed_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/DeadseedBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tmo-duplicate"
+    },
+    {
+      "name": "Deadseed",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadseed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/block/DeadseedBlock.java",
+          "src/main/resources/assets/playertracker/blockstates/deadseed.json",
+          "src/main/resources/assets/playertracker/models/block/deadseed.json",
+          "src/main/resources/assets/playertracker/models/item/deadseed.json"
+        ]
+      },
+      "path": "~/tmo-duplicate"
+    },
+    {
+      "name": "Weariness",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weariness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/WearinessProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/tmo-duplicate"
+    },
+    {
+      "name": "Help",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "help",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playertracker/procedures/HelpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tmo-duplicate"
     }
   ],
   "variable_elements": [
@@ -776,8 +876,8 @@
       "block.playertracker.soul_fire_2": "Soul Fire 2",
       "subtitles.reconstructing_science": "Reconstructing Science",
       "subtitles.ar1a_m4th": "c\\:ar?a_m4th",
-      "item.playertracker.hev_charger_beats.desc": "Morzibov - HEV charging station type beat",
       "item.playertracker.ship_of_fools": "Ship Of Fools (death odyssey)",
+      "item.playertracker.hev_charger_beats.desc": "Morzibov - HEV charging station type beat",
       "subtitles.sweet_dreams": "Sweet Dreams",
       "item.playertracker.accumultor": "this item acts as an umbrella (currently only for the undergrounder lol)",
       "subtitles.amourplastique": "Amour Plastique",
@@ -786,6 +886,7 @@
       "item.playertracker.valley_of_fools.desc": "Marzuku - Valley of fools",
       "subtitles.sweed": "smoke weed suckers",
       "item.playertracker.test": "Antigravity Modulator",
+      "block.playertracker.deadseed": "Deadseed",
       "item.playertracker.fine_print": "Fine Print",
       "item.playertracker.amour_plastique.desc": "Amour Plastique - slowed version",
       "subtitles.fine_print": "welcome to space",
@@ -816,6 +917,10 @@
       },
       {
         "name": "sfx And other sus misc",
+        "children": []
+      },
+      {
+        "name": "tmo-duplicate",
         "children": []
       }
     ]

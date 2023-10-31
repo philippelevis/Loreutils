@@ -4,7 +4,6 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.EntityDamageSource;
 import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.commands.CommandSourceStack;
 
@@ -15,6 +14,7 @@ import java.util.Comparator;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.arguments.DoubleArgumentType;
+import net.minecraft.world.entity.ai.behavior.AnimalPanic;
 
 public class PanicMobsProcedure {
 	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments) {
@@ -40,7 +40,7 @@ public class PanicMobsProcedure {
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate((DoubleArgumentType.getDouble(arguments, "dx")) / 2d), e -> true).stream()
 					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
-				entityiterator.hurt((new EntityDamageSource("custom" + ".player", player)), 0);
+				AnimalPanic.start(world, entityiterator, (long) 100);
 			}
 		}
 	}

@@ -12,10 +12,12 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.playertracker.block.SoulFire2Block;
 import net.mcreator.playertracker.block.PainBlock;
+import net.mcreator.playertracker.block.DeadseedBlock;
 import net.mcreator.playertracker.PlayertrackerMod;
 
 public class PlayertrackerModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, PlayertrackerMod.MODID);
 	public static final RegistryObject<Block> SOUL_FIRE_2 = REGISTRY.register("soul_fire_2", () -> new SoulFire2Block());
 	public static final RegistryObject<Block> PAIN = REGISTRY.register("pain", () -> new PainBlock());
+	public static final RegistryObject<Block> DEADSEED = REGISTRY.register("deadseed", () -> new DeadseedBlock());
 }

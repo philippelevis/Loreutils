@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "playertracker:blocks/missilng",
+    "particle": "playertracker:blocks/missilng"
+  },
+  "render_type": "cutout"
+}

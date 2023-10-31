@@ -37,6 +37,7 @@ public class PlayertrackerModItems {
 	public static final RegistryObject<Item> SWEET_DREAMS = REGISTRY.register("sweet_dreams", () -> new SweetDreamsItem());
 	public static final RegistryObject<Item> AIR_MAX_VIOLIN = REGISTRY.register("air_max_violin", () -> new AirMaxViolinItem());
 	public static final RegistryObject<Item> AMOUR_PLASTIQUE = REGISTRY.register("amour_plastique", () -> new AmourPlastiqueItem());
+	public static final RegistryObject<Item> DEADSEED = block(PlayertrackerModBlocks.DEADSEED, PlayertrackerModTabs.TAB_LORE_UTILS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
