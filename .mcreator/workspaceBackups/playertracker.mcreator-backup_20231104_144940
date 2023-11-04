@@ -774,9 +774,6 @@
       "locked_code": false,
       "registry_name": "bullshit",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/playertracker/procedures/BullshitProcedure.java"
-        ],
         "dependencies": []
       },
       "path": "~/tmo-duplicate"

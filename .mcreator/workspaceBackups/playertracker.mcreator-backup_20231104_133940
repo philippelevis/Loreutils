@@ -697,6 +697,18 @@
       "path": "~/tmo-duplicate"
     },
     {
+      "name": "Oppositeday",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "oppositeday",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/tmo-duplicate"
+    },
+    {
       "name": "Mixinlessspiritstride",
       "type": "procedure",
       "sortid": 41,
@@ -763,21 +775,6 @@
             "type": "cmdcontext"
           }
         ]
-      },
-      "path": "~/tmo-duplicate"
-    },
-    {
-      "name": "Bullshit",
-      "type": "procedure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bullshit",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/playertracker/procedures/BullshitProcedure.java"
-        ],
-        "dependencies": []
       },
       "path": "~/tmo-duplicate"
     }

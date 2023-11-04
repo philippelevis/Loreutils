@@ -71,6 +71,7 @@ public class PlayertrackerModVariables {
 			clone.been_online = original.been_online;
 			clone.lastLoginDate = original.lastLoginDate;
 			clone.lastDisconnectDate = original.lastDisconnectDate;
+			clone.spiritstrideActive = original.spiritstrideActive;
 			if (!event.isWasDeath()) {
 				clone.flytoolActive = original.flytoolActive;
 			}
@@ -114,6 +115,7 @@ public class PlayertrackerModVariables {
 		public String lastLoginDate = "\"\"";
 		public String lastDisconnectDate = "\"\"";
 		public boolean flytoolActive = false;
+		public boolean spiritstrideActive = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -128,6 +130,7 @@ public class PlayertrackerModVariables {
 			nbt.putString("lastLoginDate", lastLoginDate);
 			nbt.putString("lastDisconnectDate", lastDisconnectDate);
 			nbt.putBoolean("flytoolActive", flytoolActive);
+			nbt.putBoolean("spiritstrideActive", spiritstrideActive);
 			return nbt;
 		}
 
@@ -139,6 +142,7 @@ public class PlayertrackerModVariables {
 			lastLoginDate = nbt.getString("lastLoginDate");
 			lastDisconnectDate = nbt.getString("lastDisconnectDate");
 			flytoolActive = nbt.getBoolean("flytoolActive");
+			spiritstrideActive = nbt.getBoolean("spiritstrideActive");
 		}
 	}
 
@@ -169,6 +173,7 @@ public class PlayertrackerModVariables {
 					variables.lastLoginDate = message.data.lastLoginDate;
 					variables.lastDisconnectDate = message.data.lastDisconnectDate;
 					variables.flytoolActive = message.data.flytoolActive;
+					variables.spiritstrideActive = message.data.spiritstrideActive;
 				}
 			});
 			context.setPacketHandled(true);
